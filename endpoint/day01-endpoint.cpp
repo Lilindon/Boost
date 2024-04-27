@@ -1,11 +1,22 @@
 ﻿// endpoint.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
-
 #include <iostream>
 #include"endpoint.h"
+using namespace std;
+using namespace boost;
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "client_end_point done!\n";
+    client_end_point();
+    std::cout << "server_end_point done!\n";
+    server_end_point();
+    std::cout << "create_tcp_socket done!\n";
+    create_tcp_socket();
+    std::cout << "create_acceptor_socket!\n";
+    create_acceptor_socket();
+
+    return 0;
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

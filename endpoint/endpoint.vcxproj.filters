@@ -13,18 +13,51 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\day02-iooperation">
+      <UniqueIdentifier>{e9f9b846-74eb-4824-b014-a5f8f7691123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\day02-iooperation">
+      <UniqueIdentifier>{6636dff8-43bb-433e-b33d-2241e695aa2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\day01-endpoint">
+      <UniqueIdentifier>{7dd276c8-952e-4019-a10a-12c718958841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\day01-endpoint">
+      <UniqueIdentifier>{85afe02c-bd15-41b9-b926-cf69eb0a31db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="endpoint.cpp">
-      <Filter>源文件</Filter>
+    <ClCompile Include="connection.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
+    <ClCompile Include="endpoint_client.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
+    <ClCompile Include="day01-endpoint.cpp">
+      <Filter>源文件\day01-endpoint</Filter>
     </ClCompile>
     <ClCompile Include="endpoints.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\day01-endpoint</Filter>
+    </ClCompile>
+    <ClCompile Include="session.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
+    <ClCompile Include="iooperation.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="connect.h">
+      <Filter>头文件\day02-iooperation</Filter>
+    </ClInclude>
+    <ClInclude Include="endpoint_client.h">
+      <Filter>头文件\day02-iooperation</Filter>
+    </ClInclude>
     <ClInclude Include="endpoint.h">
-      <Filter>头文件</Filter>
+      <Filter>头文件\day01-endpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="session.h">
+      <Filter>头文件\day02-iooperation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

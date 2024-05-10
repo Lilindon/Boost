@@ -43,6 +43,7 @@ public:
 	void WriteCallBackErr(const boost::system::error_code& ec, std::size_t bytes_transferred, std::shared_ptr<MsgNode>);
 	//有隐患的发送函数，不提倡
 	void WriteToSocketErr(const std::string& buf);
+
 private:
 	std::queue<std::shared_ptr<MsgNode>> _send_queue;
 	std::shared_ptr<asio::ip::tcp::socket> _socket;

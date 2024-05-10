@@ -19,6 +19,12 @@
     <Filter Include="头文件\day01-endpoint">
       <UniqueIdentifier>{85afe02c-bd15-41b9-b926-cf69eb0a31db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="头文件\day02-iooperation">
+      <UniqueIdentifier>{6da20361-07a4-4536-8c95-acf389744d66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\day02-iooperation">
+      <UniqueIdentifier>{b4a0ee31-7837-417f-aa7d-786400641df2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="day01-endpoint.cpp">
@@ -27,10 +33,31 @@
     <ClCompile Include="endpoints.cpp">
       <Filter>源文件\day01-endpoint</Filter>
     </ClCompile>
+    <ClCompile Include="iooperation.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
+    <ClCompile Include="session.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
+    <ClCompile Include="endpoint_client.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>源文件\day02-iooperation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="endpoint.h">
       <Filter>头文件\day01-endpoint</Filter>
+    </ClInclude>
+    <ClInclude Include="connect.h">
+      <Filter>头文件\day02-iooperation</Filter>
+    </ClInclude>
+    <ClInclude Include="endpoint_client.h">
+      <Filter>头文件\day02-iooperation</Filter>
+    </ClInclude>
+    <ClInclude Include="session.h">
+      <Filter>头文件\day02-iooperation</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
